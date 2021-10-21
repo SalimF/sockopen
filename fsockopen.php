@@ -1,3 +1,4 @@
+<?php
 function  sockopen(   $domain    )  {
 $contents  = NULL ; $i = 0 ;   
 $host     = parse_url( $domain )['host']     ;

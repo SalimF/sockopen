@@ -1,4 +1,4 @@
-<?php
+<?php // this dominstrated how to use PHP primitave socket connection to download files from a website.
 function  sockopen(   $domain    )  {
 $contents  = NULL ; $i = 0 ;   
 $host     = parse_url( $domain )['host']     ;
